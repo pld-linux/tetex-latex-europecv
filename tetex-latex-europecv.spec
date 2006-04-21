@@ -28,14 +28,14 @@ The class has localisations for all the official languages of the EU
 KOI8-R.
 
 %description -l pl
-Klasa europecv jest nieoficjaln± LaTeX'ow± implementacj± standardowego
+Klasa europecv jest nieoficjaln± LaTeXow± implementacj± standardowego
 modelu curricula vitae (Europass CV) wed³ug zaleceñ Komisji
 Europejskiej. Pomimo, i¿ przeznaczona jest dla u¿ytkowników z krajów
 Unii Europejskiej, klasa ta jest na tyle elastyczna, ¿e mo¿e byæ u¿yta
 w dowolnym rodzaju curriculum vitae.
 
 Klasa posiada t³umaczenia dla wszystkich oficjalnych jêzyków Unii
-Europejskiej (oraz Kataloñskiego); klasa posiada mo¿liwo¶æ zezwalania
+Europejskiej (oraz kataloñskiego); klasa posiada mo¿liwo¶æ zezwalania
 na dane wej¶ciowe w formatach UTF-8 oraz KOI8-R.
 
 %prep

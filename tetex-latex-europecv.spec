@@ -14,6 +14,7 @@ Source0:	http://www.ctan.org/tex-archive/macros/latex/contrib/%{short_name}.zip
 BuildRequires:	unzip
 Requires(post,postun):	/usr/bin/texhash
 Requires:	tetex-latex
+Requires:	tetex-latex-unicode
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

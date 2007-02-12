@@ -3,7 +3,7 @@
 %define	texhash		[ ! -x %{_bindir}/texhash ] || %{_bindir}/texhash 1>&2 ;
 
 Summary:	Unofficial class for European curricula vitae
-Summary(pl.UTF-8):   Nieoficjalna klasa dla europejskiego CV
+Summary(pl.UTF-8):	Nieoficjalna klasa dla europejskiego CV
 Name:		tetex-latex-%{short_name}
 Version:	1.0.0
 Release:	1

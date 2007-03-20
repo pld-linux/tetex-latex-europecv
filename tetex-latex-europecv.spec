@@ -3,7 +3,7 @@
 %define	texhash		[ ! -x %{_bindir}/texhash ] || %{_bindir}/texhash 1>&2 ;
 
 Summary:	Unofficial class for European curricula vitae
-Summary(pl.UTF-8):	Nieoficjalna klasa dla europejskiego CV
+Summary(pl):	Nieoficjalna klasa dla europejskiego CV
 Name:		tetex-latex-%{short_name}
 Version:	1.0.0
 Release:	1
@@ -29,16 +29,16 @@ The class has localisations for all the official languages of the EU
 (plus Catalan); the class has options permitting input in UTF-8 and
 KOI8-R.
 
-%description -l pl.UTF-8
-Klasa europecv jest nieoficjalnÄ… LaTeXowÄ… implementacjÄ… standardowego
-modelu curricula vitae (Europass CV) wedÅ‚ug zaleceÅ„ Komisji
-Europejskiej. Pomimo, iÅ¼ przeznaczona jest dla uÅ¼ytkownikÃ³w z krajÃ³w
-Unii Europejskiej, klasa ta jest na tyle elastyczna, Å¼e moÅ¼e byÄ‡ uÅ¼yta
+%description -l pl
+Klasa europecv jest nieoficjaln± LaTeXow± implementacj± standardowego
+modelu curricula vitae (Europass CV) wed³ug zaleceñ Komisji
+Europejskiej. Pomimo, i¿ przeznaczona jest dla u¿ytkowników z krajów
+Unii Europejskiej, klasa ta jest na tyle elastyczna, ¿e mo¿e byæ u¿yta
 w dowolnym rodzaju curriculum vitae.
 
-Klasa posiada tÅ‚umaczenia dla wszystkich oficjalnych jÄ™zykÃ³w Unii
-Europejskiej (oraz kataloÅ„skiego); klasa posiada moÅ¼liwoÅ›Ä‡ zezwalania
-na dane wejÅ›ciowe w formatach UTF-8 oraz KOI8-R.
+Klasa posiada t³umaczenia dla wszystkich oficjalnych jêzyków Unii
+Europejskiej (oraz kataloñskiego); klasa posiada mo¿liwo¶æ zezwalania
+na dane wej¶ciowe w formatach UTF-8 oraz KOI8-R.
 
 %prep
 %setup -q -n %{short_name}
